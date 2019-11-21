@@ -7,6 +7,8 @@ TON Labs Dev Command Line Tool
 See [https://docs.ton.dev](https://docs.ton.dev) for documentation.  
 Also check our [Youtube channel](https://www.youtube.com/channel/UC9kJ6DKaxSxk6T3lEGdq-Gg) for tutorials.
 
+---
+
 <br/>
 
 ## Dependencies
