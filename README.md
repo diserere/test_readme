@@ -38,11 +38,12 @@ use it everywhere in your file system.
 
 Type:
 - `tondev` `info` (or just `tondev`) - to see current status  
-- `tondev` `-V` - to see `ton-dev-cli` version
-- `tondev` `-a` - to see versions of the compilers and node containers available in DockerHub registry
-- `tondev` `-h` or `tondev` `--help` for the help about usage, options and subcommands
+- `tondev` `-V` - to see `ton-dev-cli` version  
+- `tondev` `-a` - to see versions of the compilers and node containers available in DockerHub registry  
+- `tondev` `-h` or `tondev` `--help` for the help about usage, options and subcommands  
 
-> __You can see additional help about subcommands by using `tondev <subcommand> -h` or `tondev <subcommand> --help` command!__
+
+>__*You can see additional help about subcommands by using `tondev <subcommand> -h` or `tondev <subcommand> --help` command!*__
 
 
 ## Initialization
