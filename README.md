@@ -43,7 +43,7 @@ Type:
 - `tondev` `-h` or `tondev` `--help` for the help about usage, options and subcommands  
 
 
->__*You can see additional help about subcommands by using `tondev <subcommand> -h` or `tondev <subcommand> --help` command!*__
+>__You can see additional help about subcommands by using `tondev <subcommand> -h` or `tondev <subcommand> --help` command!__
 
 
 ## Initialization
