@@ -1,6 +1,6 @@
 # __ton-dev-cli__
 
-TON Labs Dev Command Line Tool
+#### TON Labs Dev Command Line Tool
 <br/>
 <br/>
 
@@ -31,7 +31,7 @@ Type:
 - `tondev` `-a` - to see versions of the compilers and node containers available in DockerHub registry
 - `tondev` `-h` or `tondev` `--help` for the help about usage, options and subcommands
 
-> __You can get more additional help about subcommands by using `tondev <subcommand> -h` or `tondev <subcommand> --help` command!__
+> __You can see additional help about subcommands by using `tondev <subcommand> -h` or `tondev <subcommand> --help` command!__
 
 
 ## Initialization
