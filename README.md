@@ -1,6 +1,6 @@
 # __ton-dev-cli__
 
-#### TON Labs Dev Command Line Tool
+TON Labs Dev Command Line Tool
 <br/>
 <br/>
 
