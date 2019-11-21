@@ -1,15 +1,15 @@
 # __ton-dev-cli__
-
-TON Labs Dev Command Line Tool
+### TON Labs Dev Command Line Tool
 <br/>
 <br/>
-
+<br/>
 See [https://docs.ton.dev](https://docs.ton.dev) for documentation.  
 Also check our [Youtube channel](https://www.youtube.com/channel/UC9kJ6DKaxSxk6T3lEGdq-Gg) for tutorials.
 
+---
 <br/>
-
-## Install
+<br/>
+# Install
 ```shell
 npm install -g ton-dev-cli
 ```
@@ -20,6 +20,9 @@ or
 sudo npm install -g ton-dev-cli
 ```
 
+---
+<br/>
+<br/>
 # Basic operations
 
 ## Invocation
