@@ -9,7 +9,7 @@ Also check our [Youtube channel](https://www.youtube.com/channel/UC9kJ6DKaxSxk6T
 
 <br/>
 
-### Install
+## Install
 ```shell
 npm install -g ton-dev-cli
 ```
@@ -22,7 +22,7 @@ sudo npm install -g ton-dev-cli
 
 # Basic operations
 
-### Invocation
+## Invocation
 
 `ton-dev-cli` package installs its executable `tondev` globally, so you could 
 use it everywhere in your file system.
@@ -36,7 +36,7 @@ Type:
 > __You can see additional help about subcommands by using `tondev <subcommand> -h` or `tondev <subcommand> --help` command!__
 
 
-### Initialization
+## Initialization
 
 In order to get started, run: `tondev setup`
 
@@ -49,7 +49,7 @@ You can specify additional options to customize the installation:
 - `-n`, `--networks`
 - `-m`, `--compilers`
 
-### Managing containers
+## Managing containers
 
 To start and stop both containers, use the `tondev start` and `tondev stop` commands.
 Use these commands to save machine resources.
@@ -60,7 +60,7 @@ Use these commands to save machine resources.
 - `-n`, `--networks [names]` applies the command to specified network(s) (use comma to separate)
 - `-m`, `--compilers applies` the command to the compiler kit container
 
-### Building local nodes network
+## Building local nodes network
 
 To test your contract at multiple nodes, create a network. A network consists
 of multiple inter-connected local nodes.
@@ -80,7 +80,7 @@ Given that multiple nodes cannot use the same port, reset the port with `tondev 
 
 > Note: You can add multiple nodes simultaneously by separating names with a space.
 
-### Exposing local node ArangoDB
+## Exposing local node ArangoDB
 
 It is useful to expose ArangoDB built in each local node. To do it, run:
 
@@ -91,7 +91,7 @@ tondev set --db-port 8881 anotherNode
 Instead of the port number you can specify "bind" to use the default Arango DB 
 port or "unbind" to stop exposing the port.
 
-### Renaming local node
+## Renaming local node
 
 In order to rename a node, run:
 
@@ -101,7 +101,7 @@ tondev set --new-name newName oldName
 
 To remove a node run `tondev remove anotherNode` or `tondev rm anotherNode`.
 
-### Compiling Solidity
+## Compiling Solidity
 
 Solidity contracts are compiled with the following command:
 
@@ -114,7 +114,7 @@ The following options are available:
 - `-l`, `--client-languages <languages>` to generate client code for languages: "js", "rs" (use comma to separate several languages)
 - `-L`, `--client-level <client-level>` client code level: "run" to run only, "deploy" to run and deploy (includes an imageBase64 of a binary contract)
 
-### Switching compiler versions
+## Switching compiler versions
 
 tondev CLI allows switching between compiler versions; run:
 
@@ -128,7 +128,7 @@ The command pulls a relevant Docker container. You can also run:
 tondev use [options] <version> to use specified version for containers
 ```
 
-### Removing containers
+## Removing containers
 
 In order to remove Docker containers and images related to TON Dev, run:
 
@@ -144,7 +144,7 @@ The following options are available to customize the command:
 
 If no option is specified, the command removes all TON Dev docker containers and images.
 
-### Key Pair Generation
+## Key Pair Generation
 
 
 command: `keys`
