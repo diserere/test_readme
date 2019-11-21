@@ -1,13 +1,12 @@
-# __ton-dev-cli__
-
-TON Labs Dev Command Line Tool
+# ton-dev-cli
+##### TON Labs Dev Command Line Tool
 <br/>
 <br/>
 
 See [https://docs.ton.dev](https://docs.ton.dev) for documentation.  
 Also check our [Youtube channel](https://www.youtube.com/channel/UC9kJ6DKaxSxk6T3lEGdq-Gg) for tutorials.
-
 ---
+
 
 <br/>
 
@@ -15,6 +14,7 @@ Also check our [Youtube channel](https://www.youtube.com/channel/UC9kJ6DKaxSxk6T
 - `Node.js` >= 10.x installed
 
 - `Docker`  >= 19.x installed
+
 <br/>
 
 ## Install
