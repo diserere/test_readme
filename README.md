@@ -9,7 +9,14 @@ Also check our [Youtube channel](https://www.youtube.com/channel/UC9kJ6DKaxSxk6T
 
 <br/>
 
+## Dependencies
+- `Node.js` >= 10.x installed
+
+- `Docker`  >= 19.x installed
+<br/>
+
 ## Install
+
 ```shell
 npm install -g ton-dev-cli
 ```
